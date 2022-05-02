@@ -6,15 +6,21 @@ The main goal of this project is to create an image classification pipeline in K
 
 
 # Requairments 
- 1. used modules 
+ 1. Used Modules 
   * [tensorflow-gpu](https://www.tensorflow.org/install/gpu)
   * [keras version](https://pypi.org/project/keras/)
   * [open_cv](https://pypi.org/project/opencv-python/)
 
 # Data prepair 
-  1. data_split
-  
-  
+There is a format of the the structure of the directory of the data that must be maintained .For this project we used microsoft cats and dogs data set which can be found in [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765)<br>
+
+* Point to be noted individual class must be in separate folder 
+Exp:-  data/Cats , data/Dogs 
+
+  1. data_split  
+You must provide separate data for each machine learning project in order to evaluate the model's performance. The train, test, and validation ratio in most cases is 7:2:1.<br>
+All is okay if you downloaded the data(for this project). Just provide the directory( main_dir) in the config.py. If you change the data split as your ratio changes val_ratio, test_ratio from config.py file, then run split() function in the interactive window.
+ 
   2. data agmentations 
   3. dataloader modification for new class
 # Training 
