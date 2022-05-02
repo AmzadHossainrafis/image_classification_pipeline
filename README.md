@@ -26,8 +26,8 @@ All is okay if you downloaded the data(for this project). Just provide the direc
 
   3. dataloader modification for new class
 a simple modification is needed in dataloader.py for new class .Suppose you want to add a new class called Alligator, Just simply add a if condition is the __getitem()
-and example is given below <br>
-
+and example is given below and also change num_classes in config.py  <br>
+<p align="center"><img src="Screenshot 2022-05-02 172152.png"\></p>
 
 
 # Training 
