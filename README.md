@@ -32,7 +32,20 @@ and example is given below and also change num_classes in config.py  <br>
 
 # Training 
   1. model_selection 
+  To choose a model simply  just change the variable called model_name from those name or you also implement your own [keras.functional](https://keras.io/guides/functional_api/) model and return it from the model_chg() function 
+  
+   * list of model implimented in this project from keras.application 
+      1. MobilenetV2
+      2. VGG16 
+      3. VGG19 
+      4. Inception_v3
+      5. Resnet50
+      6. Densenet121<br>
+    * list of model implimented in keras.functional 
+     1. Alexnet
+     
   2. transfer_learning 
+  
   3. train_the_model
   4. how_to_train_custom_model 
 # Result 
