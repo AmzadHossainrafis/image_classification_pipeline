@@ -41,13 +41,18 @@ and example is given below and also change num_classes in config.py  <br>
       4. Inception_v3
       5. Resnet50
       6. Densenet121<br>
-    * list of model implimented in keras.functional 
+  * list of model implimented in keras.functional 
      1. Alexnet
      
-  2. transfer_learning 
+  2. transfer_learning
+  * transfer learning is also implimented id vgg16 ,vgg19 , mobilenetv2 , just pass transfer_learning argoment True (model_nam must be vgg16 ,vgg19 or mobilenet_v2)
   
   3. train_the_model
-  4. how_to_train_custom_model 
+ * To train the model simpley just run the train.py , before that make sure following 
+   1. model_nam must be there 
+   2. num_classes 
+   3. height , width (input shape of alexnet is 227,227,3 all the other model imput shapes are 224,224,3)
+   
 # Result 
   1.how to predict 
   2.model outcome 
