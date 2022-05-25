@@ -14,6 +14,7 @@ The main goal of this project is to create an image classification pipeline in K
 
 # Data prepair 
 There is a format of the the structure of the directory of the data that must be maintained .For this project we used microsoft cats and dogs data set which can be found in [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765)<br>
+<p align="center"><img src="logs\dataset.png"\></p>
 
 * Point to be noted individual class must be in separate folder <br>
 Exp:-  data/Cats , data/Dogs 
