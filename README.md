@@ -54,14 +54,6 @@ and example is given below and also change num_classes in config.py  <br>
    2. num_classes 
    3. height , width (input shape of alexnet is 227,227,3 all the other model imput shapes are 224,224,3)
    
-# Result 
-  1.how to predict 
-  2.model outcome 
-  
-# Result compare 
-  1.how to use confusion matrices 
-  2. compare recalls f-1 
-
 # Utils functions overview 
 
 
