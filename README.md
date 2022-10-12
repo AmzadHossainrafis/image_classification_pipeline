@@ -46,7 +46,7 @@ and example is given below and also change num_classes in config.py  <br>
      1. Alexnet
      
   2. transfer_learning
-  * transfer learning is also implimented id vgg16 ,vgg19 , mobilenetv2 , just pass transfer_learning argoment True (model_nam must be vgg16 ,vgg19 or mobilenet_v2)
+  * transfer learning is also implimented in vgg16 ,vgg19 , mobilenetv2 , just pass transfer_learning argoment True (model_nam must be vgg16 ,vgg19 or mobilenet_v2)
   
   3. train_the_model
  * To train the model simpley just run the train.py , before that make sure following 
@@ -54,6 +54,11 @@ and example is given below and also change num_classes in config.py  <br>
    2. num_classes 
    3. height , width (input shape of alexnet is 227,227,3 all the other model imput shapes are 224,224,3)
    
-# Utils functions overview 
+   
+  #### code to train 
+    cd dir of the project 
+    python train.py
+   
+
 
 
