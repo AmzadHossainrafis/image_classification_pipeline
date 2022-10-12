@@ -1,8 +1,17 @@
 # Image_classification_pipeline
 
-# Project overview 
-  1. Intruduction 
-The main goal of this project is to create an image classification pipeline in Keras using several models and to walk you through all of the necessary steps in Keras to create a good and accurate model. This model can be utilized for both binary and multi-class classification. This project explains how to use Keras to train a model, including how to design different types of models, how to integrate transfer learning, how to prepare a data set for training, data augmentation, a data loader/data generetor, and how to visualize the results.how to handel and use build in callback fucntions, Compare the outcomes, learn how to use custom metric, how to reduce the traing time with keras mixed precision and more. In a simple word this pipeline contain all the importent aspet of keras for imagae clssification 
+# Project overview  
+  
+ The main goal of this project is to create an image classification pipeline in Keras using several models and to walk you through all of the necessary steps in Keras to create a good and accurate model. This model can be utilized for both binary and multi-class classification. This project explains how to use Keras to train a model, including how to design different types of models, how to integrate transfer learning, how to prepare a data set for training, data augmentation, a data loader/data generator, and how to visualize the results. How to handle and use build in callback functions, Compare the outcomes, learn how to use custom metric, how to reduce the taring time with keras mixed precision and more. In a simple word this pipeline contain all the important aspect of keras for image classification
+
+
+
+#project #pipeline #classification #keras 
+
+
+
+
+
 
 
 # Requairments 
